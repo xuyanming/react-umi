@@ -1,0 +1,67 @@
+.table {
+  :global {
+    .ant-table td {
+      white-space: nowrap;
+    }
+  }
+}
+.eleList{
+  margin-top: 20px;
+  .eleListTitle{
+    font-size: 14px;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 20px;
+  }
+  .eletable{
+    box-shadow: @shadow-1-down;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .eleListbox{
+    box-shadow: @shadow-1-down;
+    background-color: #ffffff;
+    border-radius: 10px;
+    .eleListItem:nth-last-child(1){
+      border-bottom: none;
+    }
+    .eleListItem{
+      display: flex;
+      padding: 20px;
+      border-bottom: 1px solid #999999;
+      .eleListName{
+        display: flex;
+        align-items: center;
+      }
+      .eleListItemcol{
+        margin: 14px 0;
+      }
+    }
+  }
+  
+  .bottompage{
+    width: 32%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    button{
+      margin-right: 15px;
+    }
+  }
+  .Pagination{
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: space-around;
+    right: 50px;
+    left: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: @shadow-1-down;
+  }
+}

@@ -1,0 +1,85 @@
+@import '~themes/vars';
+.loginbox{
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+}
+.logincon{
+  position: absolute;
+  background-image: url(https://app-ptc-public.oss-cn-beijing.aliyuncs.com/web_h5_img/p_dl.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  min-height: 500px;
+  display: flex;
+  left: 50px;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+}
+
+      
+ 
+.form {
+  position: absolute;
+  right: 8%;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .loginformforgot{
+    float: right;
+  }
+  .antloginput input{
+    padding:4px 0;
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0;
+    outline:none !important;box-shadow: none !important;
+  }
+  button {
+    width: 100%;
+  }
+
+  p {
+    color: rgb(204, 204, 204);
+    text-align: center;
+    margin-top: 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 24px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  flex-direction: column;
+
+
+  span {
+    vertical-align: text-bottom;
+    font-size: 16px;
+    display: inline-block;
+    color: #36393e;
+  }
+}
+
+.ant-spin-container,
+.ant-spin-nested-loading {
+  height: 100%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Antd-Admin",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A front-end solution for enterprise applications built upon Ant Design and UmiJS",
+  "icons": [
+    {
+      "src": "https://app-ptc-public.oss-cn-beijing.aliyuncs.com/web_h5_img/favicon.ico"
+    }
+  ]
+}

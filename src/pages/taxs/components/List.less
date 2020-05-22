@@ -1,0 +1,62 @@
+.table {
+  :global {
+    .ant-table td {
+      white-space: nowrap;
+    }
+  }
+}
+.eleList{
+  margin-top: 20px;
+  .eleListTitle{
+    font-size: 14px;
+    color: #999999;
+    padding:0 20px;
+    margin-bottom: 20px;
+  }
+  .eletable{
+    margin-bottom: 20px;
+    box-shadow: @shadow-1-down;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .eleListbox{
+    box-shadow: @shadow-1-down;
+    background-color: #ffffff;
+    border-radius: 10px;
+    .tableitemimg{
+      width: 20px;
+      margin-right: 5px;
+      vertical-align: text-top;
+    }
+    .eleListItem:nth-last-child(1){
+      border-bottom: none;
+    }
+    .eleListItem{
+      display: flex;
+      padding: 20px;
+      border-bottom:1px solid #f4f4f4;
+      .eleListName{
+        display: flex;
+        align-items: center;
+      }
+      .eleListItemcol{
+        line-height: 30px;
+        padding: 10px 0;
+        cursor: pointer;
+      }
+      .eleListItemcol:hover{
+        background-color: #ffffe6;
+      }
+    }
+  }
+  
+  .bottompage{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    button{
+      margin-right: 15px;
+    }
+  }
+}
